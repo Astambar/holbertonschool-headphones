@@ -1,0 +1,606 @@
+$color_1: var(--text-color);
+$color_2: var(--color-white);
+$color_3: var(--links-action-color);
+$color_4: white;
+$color_5: #6a6a71;
+$color_6: #071629;
+$font-family_1: 'holberton_school-icon';
+$font-family_2: var(--primary-font);
+$background-color_1: var(--background-color);
+$background-color_2: var(--links-action-color);
+$background-color_3: #071629;
+$border-color_1: rgba(0,0,0,.2);
+
+@import "./holberton_school-icon/style.css";
+/* Variables */
+/* Fonts */
+@font-face {
+	font-family: "Source sans pro";
+	src: url("./fonts/source-sans-pro/SourceSansPro-Regular.otf");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Source sans pro";
+	src: url("./fonts/source-sans-pro/SourceSansPro-Semibold.otf");
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Source sans pro";
+	src: url("./fonts/source-sans-pro/SourceSansPro-Bold.otf");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Spin Cycle";
+	src: url("./fonts/spincycle/spincycle_ot.otf");
+}
+@font-face {
+	font-family: 'holberton_school-icon';
+	src: url('fonts/icons/holberton_school-icon.eot?sq4eq4');
+	src: url('fonts/icons/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'), url('fonts/icons/holberton_school-icon.ttf?sq4eq4') format('truetype'), url('fonts/icons/holberton_school-icon.woff?sq4eq4') format('woff'), url('fonts/icons/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+/* GENERAL RULES */
+/* HERO SECTION */
+/* HERO SECTION */
+/* WHAT WE DO SECTION */
+/* OUR RESULTS SECTION */
+/* CONTACT US SECTION */
+/* FOOTER */
+/* MEDIA QUERIES */
+/* TABLET */
+/* PC */
+:root {
+	--primary-font: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+	--links-action-color: #FF6565;
+	--button-action-opacity: 0.9;
+	--color-white: #FFFFFF;
+	--content-max-width: 62.5em;
+	--body-font-size: 1em;
+	--h1-font-size: 3.2rem;
+	--h2-font-size: 3.2rem;
+	--h3-font-size: 1.8rem;
+	--card-max-width: 13rem;
+	--main-text-margin-bottom: 20px;
+	--main-text-h1-margin-bottom: 5px;
+	--main-text-p-margin-bottom: 0;
+	--main-btn-margin-bottom: 65px;
+	--what-we-do-padding-top-bottom: 110px;
+	--what-we-do-h2-margin-bottom: 40px;
+	--background-color: #F5F5F5;
+	--text-color: #333333;
+	--border-color: #CCCCCC;
+	--border-radius: 5px;
+	--box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	--transition-duration: 0.2s;
+	--transition-timing-function: ease-in-out;
+}
+[class^="holberton_school-icon-"] {
+	font-family: $font-family_1 !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class*=" holberton_school-icon-"] {
+		font-family: $font-family_1 !important;
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+.holberton_school-icon-ic_facebook {
+	&:before {
+		content: "\e908";
+	}
+}
+.holberton_school-icon-ic_hearing {
+	&:before {
+		content: "\e909";
+	}
+}
+.holberton_school-icon-ic_instagram {
+	&:before {
+		content: "\e90a";
+	}
+}
+.holberton_school-icon-ic_music {
+	&:before {
+		content: "\e90d";
+	}
+}
+.holberton_school-icon-ic_sound {
+	&:before {
+		content: "\e90e";
+	}
+}
+.holberton_school-icon-ic_twitter {
+	&:before {
+		content: "\e90f";
+	}
+}
+.holberton_school-icon-ic_video {
+	&:before {
+		content: "\e910";
+	}
+}
+* {
+	box-sizing: border-box;
+	&:before {
+		box-sizing: border-box;
+	}
+	&:after {
+		box-sizing: border-box;
+	}
+}
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+.content {
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+body {
+	font-size: var(--body-font-size);
+	font-family: $font-family_2;
+	background-color: $background-color_1;
+	color: $color_1;
+}
+.header {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.hero {
+	background-image: url('images/headphones_hero_1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	div.content {
+		padding-top: 266px;
+		padding-bottom: 106px;
+		color: $color_2;
+		padding-top: 266px;
+		padding-bottom: 106px;
+		color: $color_4;
+	}
+}
+.menu-icon {
+	cursor: pointer;
+	padding: 3.1rem;
+	position: absolute;
+	user-select: none;
+}
+.navicon {
+	background: var(--color-white);
+	display: block;
+	width: 1.3rem;
+	height: .2rem;
+	position: relative;
+	transition: background .2s ease-out;
+	border-radius: 2rem;
+	&::after {
+		content: "";
+		display: block;
+		height: 100%;
+		border-radius: 2rem;
+		position: absolute;
+		background: var(--color-white);
+		transition: all .2s ease-out;
+		width: 150%;
+		top: -.7rem;
+	}
+	&::before {
+		content: "";
+		display: block;
+		height: 100%;
+		border-radius: 2rem;
+		position: absolute;
+		background: var(--color-white);
+		transition: all .2s ease-out;
+		width: 130%;
+		top: .7rem;
+	}
+}
+.menu-btn {
+	display: none;
+	&:checked~.nav-menu {
+		display: block;
+		max-height: 100%;
+		width: 100%;
+		.nav-menu__list {
+			display: flex;
+			gap: 13px;
+			flex-direction: column;
+			align-items: center;
+			flex: 1;
+			overflow: hidden;
+		}
+	}
+	&:checked+.menu-icon {
+		.navicon {
+			background: transparent;
+			&::before {
+				width: 20px;
+				transform: rotate(-45deg);
+				top: 0;
+			}
+			&::after {
+				width: 20px;
+				transform: rotate(45deg);
+				top: 0;
+			}
+		}
+	}
+}
+.nav-menu {
+	display: none;
+	max-height: 0;
+	transition: max-height .2s ease-out;
+}
+.nav-menu__list {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: flex;
+	list-style: none;
+}
+.nav-menu__item {
+	width: 100%;
+}
+.nav-menu__link {
+	position: relative;
+	display: block;
+	padding: .5rem 1rem;
+	text-decoration: none;
+	color: $color_2;
+	&:hover {
+		color: $color_3;
+	}
+	&:active {
+		color: $color_3;
+	}
+}
+.logo-container {
+	flex: 1;
+	height: 31px;
+	img {
+		max-width: 100%;
+		height: 100%;
+	}
+}
+.main-text {
+	margin: 0 auto 20px;
+	margin: 0 auto 20px;
+	h1 {
+		width: 90%;
+		max-width: 578px;
+		margin: 0 auto 5px;
+		font-size: 3.2rem;
+		font-weight: 700;
+		line-height: 4.022rem;
+		width: 90%;
+		max-width: 578px;
+		margin: 0 auto 5px;
+		font-size: 3.2rem;
+		font-weight: 700;
+		line-height: 4.022rem;
+	}
+	p {
+		width: 70%;
+		max-width: 355px;
+		margin: 0 auto;
+		font-weight: 700;
+		line-height: 2.011rem;
+		width: 70%;
+		max-width: 355px;
+		margin: 0 auto;
+		font-weight: 700;
+		line-height: 2.011rem;
+	}
+}
+.main-text~p {
+	width: 90%;
+	max-width: 637px;
+	margin: 0 auto;
+	line-height: 2.6rem;
+	font-weight: 400;
+}
+.main-btn {
+	background-color: $background-color_2;
+	cursor: pointer;
+	color: $color_4;
+	border-radius: 22px;
+	border: none;
+	padding: 13px 28px;
+	box-shadow: 0px 0px 55px -14px rgba(0,0,0,0.75);
+	margin-bottom: 65px;
+	background-color: $background-color_2;
+	cursor: pointer;
+	color: $color_4;
+	border-radius: 22px;
+	border: none;
+	padding: 13px 28px;
+	box-shadow: 0px 0px 55px -14px rgba(0,0,0,0.75);
+	margin-bottom: 65px;
+	&:hover {
+		opacity: var(--button-action-opacity);
+		opacity: var(--button-action-opacity);
+	}
+	&:active {
+		opacity: var(--button-action-opacity);
+		opacity: var(--button-action-opacity);
+	}
+}
+.what-we-do {
+	padding: 110px 0;
+	div.content {
+		>h2 {
+			margin: 0 auto 40px;
+			font-size: 3.2rem;
+		}
+		>p {
+			width: 87%;
+			line-height: 2.6rem;
+			max-width: 637px;
+			margin: 0 auto;
+		}
+	}
+}
+.card-container {
+	margin-top: 110px;
+	gap: 96px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.card__icon-container {
+	span {
+		font-size: 10rem;
+		color: $color_3;
+	}
+}
+.card {
+	border-radius: 20px;
+	padding-bottom: 15px;
+	transition: all .2s ease-in-out;
+	border: 1px solid transparent;
+	&:hover {
+		border-color: $border-color_1;
+		transform: scale(1.1);
+		box-shadow: 0px 0px 7px 0px rgba(0,0,0,.2);
+	}
+	h3 {
+		font-size: 1.8rem;
+		text-align: center;
+	}
+	p {
+		max-width: 207px;
+		line-height: 2.6rem;
+		text-align: center;
+		margin: 0 auto;
+	}
+}
+.our-results {
+	color: $color_4;
+	padding: 125px 0 70px;
+	background-image: url('images/headphones_hero_2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	div.content {
+		>h2 {
+			margin: 0 auto 46px;
+			font-size: 3.2rem;
+		}
+		>p {
+			width: 81%;
+			line-height: 2.6rem;
+			max-width: 637px;
+			margin: 0 auto;
+		}
+	}
+}
+.results-container {
+	margin-top: 76px;
+	gap: 96px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.results {
+	background: var(--links-action-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 190px;
+	height: 180px;
+	margin: 0 auto;
+	gap: 15px;
+	clip-path: polygon(50% 0%,100% 38%,82% 100%,18% 100%,0% 38%);
+	transition: all .2s ease-in-out;
+	&:hover {
+		transform: scale(1.1);
+	}
+	p {
+		margin: 0;
+	}
+	.percentage {
+		padding-top: 20px;
+		font-size: 4.6rem;
+	}
+}
+.contact-us {
+	padding: 110px 0 130px;
+	h2 {
+		font-size: 3.2rem;
+		margin-bottom: 40px;
+	}
+}
+.contact-us_form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+.contact-us_input {
+	width: 80%;
+	max-width: 335px;
+	border: none;
+	color: $color_5;
+	border-bottom: 1.5px solid #979797;
+	padding: 5px;
+	outline: none;
+	&::placeholder {
+		color: $color_6;
+	}
+}
+.contact-us_btn {
+	margin-top: 56px;
+}
+.footer {
+	padding: 48px 0 34px;
+	background-color: $background-color_3;
+	div.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
+}
+.footer-logo-container {
+	width: 225px;
+	img {
+		max-width: 100%;
+		height: 100%;
+	}
+}
+.footer-nav-list {
+	margin: 45px 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+.footer-nav-item {
+	border-radius: 50%;
+	font-size: 4rem;
+	a {
+		text-decoration: none;
+		color: $color_4;
+	}
+}
+.copyright {
+	color: $color_4;
+	opacity: 35.17%;
+	margin: 0;
+}
+@media screen and (min-width :481px) {
+	.header {
+		justify-content: space-between;
+		flex-wrap: nowrap;
+	}
+	.menu-icon {
+		display: none;
+	}
+	.navicon {
+		display: none;
+	}
+	.logo-container {
+		flex: unset;
+		margin: 16px 20px;
+	}
+	.nav-menu {
+		display: flex;
+		max-height: 100%;
+		align-items: center;
+		padding-right: 40px;
+	}
+	.nav-menu__list {
+		gap: 20px;
+	}
+	.nav-menu__item {
+		width: unset;
+	}
+	.nav-menu__link {
+		padding: .5rem 0;
+	}
+	.hero {
+		div.content {
+			padding-top: 31.1rem;
+			padding-bottom: 28.4rem;
+		}
+	}
+	.card-container {
+		margin: 105px auto 0;
+		max-width: 472px;
+		gap: 50px;
+	}
+	.results-container {
+		margin: 105px auto 0;
+		max-width: 472px;
+		gap: 50px;
+	}
+	.footer_info {
+		width: 90%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.footer-logo-container {
+		width: unset;
+		height: 32px;
+		margin: 16px 0;
+	}
+	.copyright {
+		margin: 0 auto;
+	}
+}
+@media screen and (min-width :769px) {
+	.nav-menu__list {
+		gap: 40px;
+	}
+	.main-text~p {
+		display: block;
+	}
+	.hero {
+		div.content {
+			padding-bottom: 11.5rem;
+		}
+	}
+	.card-container {
+		justify-content: space-evenly;
+		flex-wrap: unset;
+		max-width: 1002px;
+		gap: unset;
+	}
+	.results-container {
+		justify-content: space-evenly;
+		flex-wrap: unset;
+		max-width: 1002px;
+		gap: unset;
+	}
+}

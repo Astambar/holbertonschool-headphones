@@ -1,0 +1,116 @@
+/*Partie 4:*/
+.main-btn:hover,
+.main-btn:active{
+	opacity:
+	var(--button-action-opacity);
+}
+/* HERO SECTION */
+.hero div.content{
+	padding-top :266px;
+	padding-bottom :106px;
+	color:white;
+}
+.main-text{
+	margin:
+		0 auto 20px;
+}
+.main-text h1{
+	width :
+		90%;
+	max-width :
+		578px;
+	margin:
+		0 auto 5px;
+	font-size:
+	3.2rem;
+	font-weight:
+	700;
+	line-height:
+	4.022rem;
+}
+.main-text p{
+	width :
+		70%;
+	max-width :
+		355px;
+	margin: 0 auto;
+	font-weight:700;
+	line-height:2.011rem;
+}
+.main-btn{
+	background-color:var(--links-action-color);
+	cursor:pointer;
+	color:white;
+	border-radius:22px;
+	border:none;
+	padding:13px 28px;
+	box-shadow:
+		0px 0px 55px -14px rgba(0,0,0,0.75);
+	margin-bottom:65px;
+}
+.main-btn:hover,
+.main-btn:active{
+	opacity:
+	var(--button-action-opacity);
+}
+/* WHAT WE DO SECTION */
+.what-we-do {
+	padding:110px 0;
+}
+.what-we-do div.content>h2 {
+	margin:0 auto 40px;
+	font-size:3.2rem;
+}
+.what-we-do div.content>p {
+	width:87%;
+	line-height:2.6rem;
+	max-width:637px;
+	margin:0 auto;
+}
+.card-container {
+	margin-top:110px;
+	gap:96px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+}
+.card__icon-container span {
+	font-size:10rem;
+	color:var(--links-action-color);
+}
+.card {
+	border-radius:20px;
+	padding-bottom:15px;
+	transition:all .2s ease-in-out;
+	border:1px solid transparent;
+}
+.card:hover {
+	border-color :rgba(0,0,0,.2);
+	transform :scale(1.1);
+	box-shadow :0px 0px 7px 0px rgba(0,0,0,.2);
+}
+.card h3 {
+	font-size :1.8rem;
+	text-align:center;
+}
+.card p {
+	max-width :207px;
+	line-height :2.6rem;
+	text-align:center;
+	margin :0 auto;
+}
+/* OUR RESULTS SECTION */
+.our-results {
+	color:white;
+	padding :125px 0 70px;
+	background-image:url('images/headphones_hero_2.jpg');
+	background-repeat:no-repeat; 
+	background-size :cover; 
+	background-position:center; 
+	background-attachment :fixed; 
+}
+.our-results div.content > h2 {
+	margin :0 auto 46px; 
+	font-size :3.2rem; 
+}

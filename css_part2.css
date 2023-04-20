@@ -1,0 +1,95 @@
+[class^="holberton_school-icon-"],
+[class*=" holberton_school-icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'holberton_school-icon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.holberton_school-icon-ic_facebook:before {
+	content: "\e908";
+}
+.holberton_school-icon-ic_hearing:before {
+	content: "\e909";
+}
+.holberton_school-icon-ic_instagram:before {
+	content: "\e90a";
+}
+.holberton_school-icon-ic_music:before {
+	content: "\e90d";
+}
+.holberton_school-icon-ic_sound:before {
+	content: "\e90e";
+}
+.holberton_school-icon-ic_twitter:before {
+	content: "\e90f";
+}
+.holberton_school-icon-ic_video:before {
+	content: "\e910";
+}
+/* GENERAL RULES */
+*,
+*:before,
+*:after {
+    box-sizing:border-box;
+}
+html {
+    scroll-behavior:smooth;
+    font-size:62.5%;
+}
+.content {
+    max-width:1000px;
+    margin:0 auto;
+    text-align:center;
+}
+body {
+    font-size: var(--body-font-size);
+    font-family:var(--primary-font);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+/* HERO SECTION */
+.header {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.hero {
+	background-image: url('images/headphones_hero_1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.menu-icon {
+	cursor: pointer;
+	padding: 3.1rem;
+	position: absolute;
+	user-select: none;
+}
+.navicon {
+	background: var(--color-white);
+	display: block;
+	width: 1.3rem;
+	height: .2rem;
+	position: relative;
+	transition: background .2s ease-out;
+	border-radius: 2rem;
+}
+.navicon::after,
+.navicon::before {
+	content: "";
+	display: block;
+	height: 100%;
+	border-radius: 2rem;
+	position: absolute;
+	background: var(--color-white);
+	transition: all .2s ease-out;
+}

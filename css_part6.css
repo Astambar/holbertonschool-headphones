@@ -1,0 +1,91 @@
+/*Partie 6:*/
+/* MEDIA QUERIES */
+
+/* TABLET */
+@media screen and (min-width :481px) {
+	.header {
+		justify-content :space-between; 
+		flex-wrap :nowrap; 
+	}
+	
+	.menu-icon,
+	.navicon{
+		display:none; 
+	}
+	
+	.logo-container{
+		flex :unset; 
+		margin :16px 20px; 
+	}
+	
+	.nav-menu{
+		display:flex; 
+		max-height :100%; 
+		align-items:center; 
+		padding-right :40px; 
+	}
+	
+	.nav-menu__list{
+		gap :20px
+	}
+	
+	.nav-menu__item{
+		width :unset; 
+	}
+	
+	.nav-menu__link{
+		padding:.5rem 0; 
+	}
+	
+	.hero div.content{
+		padding-top :31.1rem; 
+		padding-bottom :28.4rem; 
+	}
+	
+    .card-container,
+    .results-container{
+        margin :105px auto 0; 
+        max-width :472px; 
+        gap :50px; 
+    }
+    
+    .footer_info{
+        width :90%; 
+        display:flex; 
+        justify-content:space-between; 
+        align-items:center; 
+    }
+    
+    .footer-logo-container{
+        width :unset; 
+        height :32px; 
+        margin :16px 0; 
+    }
+    
+    .copyright{
+        margin :0 auto; 
+    }
+}
+
+/* PC */
+@media screen and (min-width :769px) {
+    .nav-menu__list{
+        gap :40px
+    }
+    
+    .main-text~p{
+        display:block; 
+    }
+    
+    .hero div.content{
+        padding-bottom :11.5rem; 
+    }
+    
+    .card-container,
+    .results-container{
+        justify-content:space-evenly;
+        flex-wrap:unset;
+        max-width:1002px;
+        gap:unset;
+    }
+}

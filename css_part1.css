@@ -1,0 +1,70 @@
+/*Mon CSS partie 1/6:*/
+@import url(./holberton_school-icon/style.css);
+/* Variables */
+:root {
+    --primary-font: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    --links-action-color: #FF6565;
+    --button-action-opacity: 0.9;
+    --color-white: #FFFFFF;
+    --content-max-width: 62.5em;
+    --body-font-size: 1em;
+    --h1-font-size: 3.2rem;
+    --h2-font-size: 3.2rem;
+    --h3-font-size: 1.8rem;
+    --card-max-width: 13rem;
+    --main-text-margin-bottom: 20px;
+    --main-text-h1-margin-bottom: 5px;
+    --main-text-p-margin-bottom: 0;
+    --main-btn-margin-bottom: 65px;
+    --what-we-do-padding-top-bottom: 110px;
+    --what-we-do-h2-margin-bottom: 40px;
+    /* New variables */
+    --background-color: #F5F5F5;
+    --text-color: #333333;
+    --border-color: #CCCCCC;
+    --border-radius: 5px;
+    --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    --transition-duration: 0.2s;
+    --transition-timing-function: ease-in-out;
+}
+/* Fonts */
+@font-face {
+	font-family: "Source sans pro";
+	src: url("./fonts/source-sans-pro/SourceSansPro-Regular.otf");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Source sans pro";
+	src: url("./fonts/source-sans-pro/SourceSansPro-Semibold.otf");
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Source sans pro";
+	src: url("./fonts/source-sans-pro/SourceSansPro-Bold.otf");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Spin Cycle";
+	src: url("./fonts/spincycle/spincycle_ot.otf");
+}
+[class^="holberton_school-icon-"],
+[class*=" holberton_school-icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'holberton_school-icon' !important;
+	speak:none; 
+	font-style:normal; 
+	font-weight:normal; 
+	font-variant:normal; 
+	text-transform:none; 
+	line-height:1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased; 
+	-moz-osx-font-smoothing: grayscale; 
+}
+.holberton_school-icon-ic_facebook:before {
+	content:"\e908";
+}
